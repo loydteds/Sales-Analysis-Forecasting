@@ -1,0 +1,143 @@
+Region,State,Category,Sales
+West,California,Technology,154684.18
+West,California,Furniture,152216.5355
+West,California,Office Supplies,139405.748
+East,New York,Technology,126902.69
+East,New York,Furniture,92504.565
+East,New York,Office Supplies,86953.89199999999
+Central,Texas,Technology,64656.272
+Central,Texas,Furniture,59633.6442
+West,Washington,Technology,50536.71
+South,Florida,Technology,46968.036
+West,Washington,Furniture,44626.472
+Central,Texas,Office Supplies,44282.616
+East,Pennsylvania,Technology,42064.069
+West,Washington,Office Supplies,40043.668
+East,Pennsylvania,Furniture,39354.931
+Central,Michigan,Office Supplies,37688.199
+East,Pennsylvania,Office Supplies,34857.65
+East,Ohio,Technology,34550.548
+Central,Illinois,Technology,31637.881
+Central,Illinois,Furniture,28212.978
+South,Georgia,Office Supplies,26397.78
+South,North Carolina,Technology,26083.119
+Central,Indiana,Technology,25959.67
+South,Virginia,Furniture,25321.95
+South,Virginia,Technology,24145.16
+East,Ohio,Furniture,23250.893
+South,Florida,Furniture,22743.014
+Central,Michigan,Furniture,22321.1
+South,Virginia,Office Supplies,21169.61
+Central,Minnesota,Office Supplies,19406.54
+Central,Illinois,Office Supplies,19385.658
+South,Florida,Office Supplies,18725.482
+East,Ohio,Office Supplies,17328.909
+Central,Wisconsin,Furniture,16757.85
+Central,Michigan,Technology,16126.775
+South,North Carolina,Furniture,14718.284
+East,Delaware,Technology,14562.22
+East,New Jersey,Technology,14501.16
+South,North Carolina,Office Supplies,14364.561
+East,New Jersey,Office Supplies,13802.77
+West,Arizona,Furniture,13525.291
+South,Tennessee,Furniture,13506.732
+South,Georgia,Technology,13499.85
+West,Colorado,Furniture,13220.285
+Central,Indiana,Office Supplies,13206.86
+South,Kentucky,Technology,12552.64
+South,Tennessee,Office Supplies,12347.858
+Central,Missouri,Office Supplies,12182.18
+South,Kentucky,Furniture,12126.84
+East,Massachusetts,Office Supplies,11988.74
+South,Kentucky,Office Supplies,11778.91
+West,Arizona,Technology,11750.885
+West,Colorado,Technology,10966.329
+East,Massachusetts,Furniture,10919.064
+East,Rhode Island,Technology,10474.41
+East,Maryland,Office Supplies,10390.23
+West,Arizona,Office Supplies,9996.481
+Central,Indiana,Furniture,9551.87
+East,Maryland,Furniture,9149.253
+South,Alabama,Technology,8969.08
+Central,Wisconsin,Technology,8376.36
+South,Georgia,Furniture,8321.48
+Central,Oklahoma,Furniture,8284.1
+East,Delaware,Office Supplies,8014.86
+West,Colorado,Office Supplies,7654.984
+Central,Minnesota,Furniture,7611.35
+Central,Missouri,Technology,7086.52
+West,Nevada,Office Supplies,6956.924
+Central,Oklahoma,Technology,6368.45
+West,Oregon,Furniture,6338.13
+South,Alabama,Furniture,6332.4800000000005
+East,New Jersey,Furniture,6307.042
+East,Rhode Island,Office Supplies,6131.86
+Central,Wisconsin,Office Supplies,6039.22
+East,Rhode Island,Furniture,5918.756
+West,Oregon,Technology,5821.5560000000005
+East,Massachusetts,Technology,5726.63
+East,Connecticut,Office Supplies,5418.34
+East,Connecticut,Furniture,5174.987
+West,Nevada,Technology,5137.005999999999
+West,Oregon,Office Supplies,5124.776
+East,Vermont,Furniture,5120.099999999999
+Central,Oklahoma,Office Supplies,5030.84
+West,Utah,Furniture,4822.35
+South,Tennessee,Technology,4807.283
+East,Delaware,Furniture,4745.919
+West,Nevada,Furniture,4635.1720000000005
+South,Arkansas,Office Supplies,4565.33
+South,Mississippi,Furniture,4317.85
+South,Alabama,Office Supplies,4209.08
+East,Maryland,Technology,4166.04
+West,Utah,Office Supplies,4087.802
+South,Arkansas,Technology,3925.25
+South,South Carolina,Office Supplies,3811.84
+West,Montana,Technology,3662.9339999999997
+East,New Hampshire,Technology,3636.7999999999997
+South,Mississippi,Office Supplies,3631.16
+South,Louisiana,Office Supplies,3423.16
+Central,Nebraska,Technology,3285.74
+South,Arkansas,Furniture,3187.55
+South,South Carolina,Furniture,3078.25
+Central,Missouri,Furniture,2936.45
+South,Louisiana,Furniture,2877.05
+Central,Minnesota,Technology,2845.26
+South,Louisiana,Technology,2830.84
+South,Mississippi,Technology,2822.33
+East,Connecticut,Technology,2791.03
+Central,Iowa,Furniture,2627.3999999999996
+West,Idaho,Furniture,2595.482
+West,Utah,Technology,2309.904
+Central,Nebraska,Office Supplies,2234.49
+East,Vermont,Office Supplies,2209.51
+Central,Kansas,Office Supplies,1954.1499999999999
+Central,Nebraska,Furniture,1944.7
+East,New Hampshire,Furniture,1886.474
+West,Montana,Office Supplies,1862.438
+East,New Hampshire,Office Supplies,1769.25
+West,New Mexico,Furniture,1701.412
+West,New Mexico,Technology,1697.9279999999999
+West,Wyoming,Furniture,1603.136
+East,Vermont,Technology,1599.76
+South,South Carolina,Technology,1591.6200000000001
+West,New Mexico,Office Supplies,1384.182
+East,District of Columbia,Technology,1379.92
+East,District of Columbia,Furniture,1346.58
+Central,Iowa,Technology,1154.3
+West,Idaho,Office Supplies,949.506
+Central,North Dakota,Office Supplies,919.91
+Central,Kansas,Technology,849.04
+West,Idaho,Technology,837.498
+East,Maine,Technology,761.25
+East,West Virginia,Furniture,673.344
+Central,Iowa,Office Supplies,661.86
+Central,South Dakota,Office Supplies,597.72
+East,West Virginia,Office Supplies,536.48
+East,Maine,Office Supplies,399.8
+Central,South Dakota,Technology,392.94000000000005
+Central,South Dakota,Furniture,324.9
+East,District of Columbia,Office Supplies,138.51999999999998
+Central,Kansas,Furniture,111.12
+East,Maine,Furniture,109.48
+West,Montana,Furniture,63.98
