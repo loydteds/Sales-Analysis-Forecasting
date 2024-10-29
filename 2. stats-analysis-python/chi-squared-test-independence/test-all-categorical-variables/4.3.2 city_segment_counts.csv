@@ -1,0 +1,530 @@
+City,Total Sales Frequency,Consumer,Corporate,Home Office
+New York City,891,497,250,144
+Los Angeles,728,381,229,118
+San Francisco,500,250,158,92
+Philadelphia,532,266,175,91
+Seattle,426,219,118,89
+Houston,374,211,96,67
+Chicago,308,168,79,61
+Columbus,221,112,74,35
+Springfield,161,66,61,34
+Jackson,82,33,21,28
+Dallas,156,76,53,27
+San Diego,170,102,44,24
+Aurora,68,28,17,23
+Jacksonville,125,61,45,19
+Providence,31,6,6,19
+Richmond,81,41,23,17
+Louisville,54,32,6,16
+Detroit,115,65,35,15
+Pasadena,42,20,8,14
+Lakewood,48,14,20,14
+Lancaster,46,24,8,14
+Franklin,37,8,16,13
+Henderson,51,22,17,12
+Lawrence,44,19,13,12
+Concord,31,15,5,11
+Charlotte,51,24,16,11
+Chester,16,3,2,11
+Smyrna,22,5,6,11
+Troy,29,13,5,11
+Salem,40,26,3,11
+Miami,56,31,14,11
+Milwaukee,40,8,22,10
+Phoenix,63,33,20,10
+Peoria,23,6,7,10
+Roseville,26,13,4,9
+Columbia,81,42,30,9
+Everett,22,12,1,9
+Newark,92,45,38,9
+Superior,9,0,0,9
+Tampa,36,20,7,9
+Tulsa,26,13,5,8
+Cleveland,38,27,3,8
+Knoxville,24,11,5,8
+Oklahoma City,23,13,3,7
+Alexandria,16,3,6,7
+Baltimore,43,18,18,7
+Arlington,60,27,26,7
+Danville,7,0,0,7
+Huntsville,36,17,12,7
+Glendale,23,11,5,7
+Hialeah,18,8,3,7
+Albuquerque,14,4,4,6
+Lakeville,15,9,0,6
+Cambridge,6,0,0,6
+Mentor,6,0,0,6
+Austin,39,22,11,6
+Gilbert,15,4,5,6
+Saint Charles,10,4,1,5
+Allentown,7,2,0,5
+Salt Lake City,8,3,0,5
+Olathe,5,0,0,5
+Omaha,28,15,8,5
+Great Falls,8,3,0,5
+Harrisonburg,7,2,0,5
+Trenton,13,7,1,5
+Lorain,9,1,3,5
+Paterson,20,11,4,5
+Sandy Springs,14,2,7,5
+Long Beach,52,33,14,5
+League City,6,2,0,4
+Bloomington,15,10,1,4
+Lake Forest,6,2,0,4
+Monroe,21,12,5,4
+Suffolk,10,1,5,4
+Fort Worth,27,11,12,4
+Virginia Beach,16,8,4,4
+Waterbury,11,4,3,4
+Fort Lauderdale,13,7,2,4
+Fresno,26,16,6,4
+Raleigh,21,9,8,4
+Oxnard,9,2,3,4
+Gastonia,4,0,0,4
+North Las Vegas,16,8,4,4
+Westfield,6,0,2,4
+Fayetteville,41,28,9,4
+Pueblo,8,3,1,4
+Elmhurst,4,0,0,4
+Clinton,29,14,11,4
+Muskogee,4,0,0,4
+Sheboygan,4,0,0,4
+Santa Barbara,6,1,1,4
+Moreno Valley,10,5,1,4
+Minneapolis,23,17,2,4
+Indianapolis,18,10,4,4
+Burlington,25,12,9,4
+Bryan,4,0,0,4
+Clarksville,7,3,0,4
+Colorado Springs,25,12,9,4
+Waynesboro,10,7,0,3
+Tallahassee,17,9,5,3
+Maple Grove,4,0,1,3
+Manteca,3,0,0,3
+Lewiston,4,1,0,3
+Burbank,3,0,0,3
+San Jose,42,27,12,3
+San Gabriel,3,0,0,3
+Hollywood,11,7,1,3
+Hot Springs,4,1,0,3
+Nashville,29,15,11,3
+Carlsbad,11,2,6,3
+Chandler,6,1,2,3
+Naperville,8,4,1,3
+Tigard,8,3,2,3
+Boynton Beach,10,7,0,3
+Toledo,31,14,14,3
+Meridian,4,0,1,3
+Brownsville,7,2,2,3
+Mesa,28,17,8,3
+Midland,12,9,0,3
+Rome,6,2,1,3
+Plainfield,10,3,4,3
+Des Moines,19,8,8,3
+Dover,19,10,6,3
+San Antonio,59,32,24,3
+Covington,4,0,1,3
+Greenwood,4,1,0,3
+Rochester,53,36,14,3
+Eagan,8,3,2,3
+Pharr,4,1,0,3
+Quincy,20,13,4,3
+Wilmington,36,24,9,3
+Wheeling,7,4,0,3
+Tucson,32,17,12,3
+Bakersfield,16,11,2,3
+Bayonne,3,0,0,3
+Washington,10,7,0,3
+Auburn,24,19,3,2
+Atlanta,39,31,6,2
+Vallejo,6,4,0,2
+Yonkers,15,13,0,2
+Tuscaloosa,2,0,0,2
+Apple Valley,9,3,4,2
+Wichita,7,5,0,2
+Perth Amboy,8,3,3,2
+Apopka,7,3,2,2
+El Paso,19,15,2,2
+Portland,22,16,4,2
+Fargo,7,5,0,2
+Fairfield,42,24,16,2
+Fort Collins,7,5,0,2
+Sacramento,13,3,8,2
+Oakland,26,17,7,2
+Helena,3,0,1,2
+Niagara Falls,2,0,0,2
+Greenville,9,6,1,2
+Newport News,12,7,3,2
+Reno,4,0,2,2
+Riverside,14,3,9,2
+Revere,7,0,5,2
+Rockford,11,5,4,2
+Denver,44,20,22,2
+Durham,9,3,4,2
+Dubuque,3,1,0,2
+Orange,6,2,2,2
+Orem,9,6,1,2
+Park Ridge,3,1,0,2
+Garland,4,2,0,2
+Costa Mesa,8,6,0,2
+Lakeland,22,4,16,2
+La Mesa,2,0,0,2
+Bozeman,2,0,0,2
+Marion,16,9,5,2
+Jonesboro,11,9,0,2
+Brentwood,16,3,11,2
+Santa Ana,14,10,2,2
+Holland,3,1,0,2
+Hendersonville,5,3,0,2
+Yuma,4,0,2,2
+Lansing,8,6,0,2
+Malden,3,1,0,2
+Mcallen,19,5,12,2
+Laguna Niguel,4,0,2,2
+Marietta,7,1,4,2
+Sterling Heights,3,1,0,2
+New Brunswick,2,0,0,2
+Scottsdale,12,8,2,2
+Shelton,2,0,0,2
+Chico,11,3,6,2
+Roswell,18,11,5,2
+Sanford,2,0,0,2
+Grand Prairie,13,9,3,1
+Fremont,8,2,5,1
+Frisco,2,1,0,1
+Pico Rivera,1,0,0,1
+Plano,15,13,1,1
+Provo,10,1,8,1
+Redmond,11,8,2,1
+Eau Claire,6,4,1,1
+El Cajon,2,0,1,1
+Saginaw,6,5,0,1
+Saint Peters,1,0,0,1
+Salinas,8,0,7,1
+Corpus Christi,8,0,7,1
+Danbury,1,0,0,1
+Cranston,15,7,7,1
+Hampton,11,7,3,1
+Normal,1,0,0,1
+Norwich,4,2,1,1
+Escondido,3,1,1,1
+Odessa,5,0,4,1
+Orland Park,1,0,0,1
+Deltona,5,2,2,1
+Oceanside,30,20,9,1
+Grand Rapids,5,2,2,1
+Woodstock,3,1,1,1
+Watertown,10,4,5,1
+Ann Arbor,5,0,4,1
+Wilson,6,2,3,1
+Appleton,2,1,0,1
+Vancouver,5,0,4,1
+Florence,20,14,5,1
+Santa Fe,2,1,0,1
+Chesapeake,18,12,5,1
+Cheyenne,1,0,0,1
+Murray,5,4,0,1
+Holyoke,1,0,0,1
+Huntington Beach,6,1,4,1
+Highland Park,7,4,2,1
+New Rochelle,6,5,0,1
+San Bernardino,6,5,0,1
+Chula Vista,3,2,0,1
+Bristol,13,2,10,1
+Broken Arrow,5,2,2,1
+Canton,3,0,2,1
+Milford,6,2,3,1
+Independence,2,1,0,1
+Miramar,8,2,5,1
+Jefferson City,1,0,0,1
+Kenosha,9,5,3,1
+Chattanooga,10,7,2,1
+Moorhead,2,1,0,1
+Charlottesville,2,1,0,1
+Spokane,7,3,3,1
+Lake Charles,3,2,0,1
+Meriden,11,7,3,1
+Sparks,3,1,1,1
+Springdale,1,0,0,1
+Bellevue,6,4,1,1
+Bolingbrook,6,5,0,1
+Lafayette,29,18,10,1
+Stockton,6,4,1,1
+Tamarac,4,0,3,1
+Bedford,5,0,4,1
+Texarkana,2,0,1,1
+Thousand Oaks,5,1,3,1
+Lebanon,3,2,0,1
+Lehi,2,0,1,1
+Manhattan,1,0,0,1
+Las Cruces,3,2,0,1
+Las Vegas,13,9,3,1
+Lubbock,6,4,1,1
+West Palm Beach,3,2,0,1
+Akron,20,13,6,1
+West Jordan,5,5,0,0
+Abilene,1,1,0,0
+Allen,4,4,0,0
+Altoona,2,0,2,0
+Amarillo,10,8,2,0
+Anaheim,19,14,5,0
+Andover,4,4,0,0
+Antioch,1,0,1,0
+Westland,13,13,0,0
+Westminster,16,16,0,0
+Asheville,7,4,3,0
+Arvada,4,0,4,0
+Arlington Heights,1,1,0,0
+Vacaville,1,1,0,0
+Utica,7,6,1,0
+Urbandale,3,3,0,0
+Tyler,5,5,0,0
+Twin Falls,2,0,2,0
+Torrance,4,0,4,0
+Tinley Park,1,0,1,0
+Bowling Green,10,6,4,0
+Bossier City,6,0,6,0
+Boise,4,1,3,0
+Boca Raton,3,3,0,0
+Billings,1,0,1,0
+Beverly,3,0,3,0
+Memphis,30,22,8,0
+Melbourne,1,0,1,0
+Medina,9,4,5,0
+Medford,4,3,1,0
+Marysville,2,2,0,0
+Marlborough,2,2,0,0
+Margate,1,1,0,0
+Mansfield,2,1,1,0
+Manchester,11,7,4,0
+Linden,1,0,1,0
+Lincoln Park,3,0,3,0
+Leominster,6,2,4,0
+Layton,1,1,0,0
+Lawton,4,4,0,0
+Laurel,2,0,2,0
+Laredo,13,8,5,0
+Iowa City,1,0,1,0
+Inglewood,16,6,10,0
+Mobile,11,7,4,0
+Missouri City,1,0,1,0
+Missoula,1,1,0,0
+Mission Viejo,5,5,0,0
+Mishawaka,2,2,0,0
+Middletown,9,6,3,0
+Mesquite,5,0,5,0
+Lake Elsinore,1,1,0,0
+La Quinta,1,0,1,0
+La Porte,8,3,5,0
+La Crosse,5,1,4,0
+Kissimmee,1,1,0,0
+Kirkwood,2,2,0,0
+Kent,13,12,1,0
+Nashua,2,1,1,0
+Murrieta,1,1,0,0
+Murfreesboro,11,0,11,0
+Mount Vernon,8,3,5,0
+Mount Pleasant,2,2,0,0
+Morristown,7,5,2,0
+Morgan Hill,4,4,0,0
+Montgomery,10,3,7,0
+Montebello,1,0,1,0
+Modesto,3,2,1,0
+Kenner,2,2,0,0
+Keller,1,1,0,0
+Jupiter,1,1,0,0
+Johnson City,12,12,0,0
+Jamestown,2,1,1,0
+Irving,8,7,1,0
+Gresham,5,4,1,0
+Greensboro,13,4,9,0
+Green Bay,4,1,3,0
+North Charleston,2,1,1,0
+Norman,2,1,1,0
+Norfolk,1,1,0,0
+Noblesville,4,3,1,0
+New Castle,2,2,0,0
+New Bedford,5,1,4,0
+New Albany,4,4,0,0
+Hoover,4,0,4,0
+Homestead,3,3,0,0
+Hillsboro,4,2,2,0
+Hickory,2,2,0,0
+Hesperia,4,0,4,0
+Hempstead,11,7,4,0
+Overland Park,6,0,6,0
+Oswego,3,3,0,0
+Ormond Beach,1,1,0,0
+Orlando,11,6,5,0
+Ontario,1,1,0,0
+Olympia,5,5,0,0
+Oak Park,3,0,3,0
+North Miami,2,2,0,0
+Hattiesburg,9,8,1,0
+Harlingen,5,5,0,0
+Hamilton,4,4,0,0
+Haltom City,4,0,4,0
+Hagerstown,1,1,0,0
+Hackensack,6,0,6,0
+Gulfport,3,1,2,0
+Grove City,2,2,0,0
+Goldsboro,1,1,0,0
+Glenview,1,1,0,0
+Gladstone,2,2,0,0
+Georgetown,8,8,0,0
+Garden City,5,3,2,0
+Gaithersburg,2,0,2,0
+Pensacola,1,1,0,0
+Pembroke Pines,14,14,0,0
+Pearland,3,1,2,0
+Passaic,6,6,0,0
+Pasco,6,6,0,0
+Parma,9,9,0,0
+Parker,8,3,5,0
+Palm Coast,5,1,4,0
+Palatine,1,0,1,0
+Owensboro,2,1,1,0
+Port Saint Lucie,3,2,1,0
+Port Orange,1,1,0,0
+Port Arthur,6,2,4,0
+Pompano Beach,3,0,3,0
+Pomona,7,5,2,0
+Pocatello,7,7,0,0
+Pleasant Grove,7,6,1,0
+Plantation,11,2,9,0
+Pine Bluff,2,2,0,0
+Freeport,10,9,1,0
+Frankfort,2,2,0,0
+Farmington,3,2,1,0
+Evanston,4,4,0,0
+Greeley,2,2,0,0
+Grapevine,2,0,2,0
+Grand Island,1,1,0,0
+Encinitas,5,5,0,0
+Elyria,1,0,1,0
+Elkhart,2,2,0,0
+Edmonds,14,13,1,0
+Edmond,2,2,0,0
+Edinburg,3,3,0,0
+East Point,3,0,3,0
+East Orange,1,1,0,0
+Redwood City,1,0,1,0
+Redondo Beach,8,4,4,0
+Redlands,16,15,1,0
+Redding,1,1,0,0
+Reading,5,2,3,0
+Rapid City,2,0,2,0
+Rancho Cucamonga,4,3,1,0
+Portage,1,1,0,0
+Delray Beach,3,1,2,0
+Deer Park,1,0,1,0
+Decatur,32,17,15,0
+Dearborn Heights,6,6,0,0
+Dearborn,5,0,5,0
+Daytona Beach,4,4,0,0
+Romeoville,1,1,0,0
+Rogers,1,1,0,0
+Rockville,5,5,0,0
+Rock Hill,1,1,0,0
+Rochester Hills,1,1,0,0
+Rio Rancho,2,2,0,0
+Richardson,2,0,2,0
+Renton,3,3,0,0
+Eugene,6,0,6,0
+Englewood,2,2,0,0
+Coral Springs,8,3,5,0
+Coral Gables,2,0,2,0
+Coppell,4,3,1,0
+Coon Rapids,2,2,0,0
+Conway,1,1,0,0
+Conroe,1,0,1,0
+San Angelo,4,3,1,0
+Saint Petersburg,7,4,3,0
+Saint Paul,2,0,2,0
+Saint Louis,5,3,2,0
+Saint Cloud,3,0,3,0
+Royal Oak,2,2,0,0
+Round Rock,7,6,1,0
+Dublin,14,12,2,0
+Draper,3,2,1,0
+Des Plaines,6,6,0,0
+Santa Maria,1,1,0,0
+Santa Clara,6,2,4,0
+San Mateo,1,1,0,0
+San Marcos,4,0,4,0
+San Luis Obispo,1,1,0,0
+San Clemente,2,2,0,0
+Commerce City,1,1,0,0
+College Station,3,3,0,0
+Coachella,2,0,2,0
+Clovis,2,2,0,0
+Clifton,2,2,0,0
+Citrus Heights,1,1,0,0
+Cincinnati,17,12,5,0
+Davis,1,1,0,0
+Cuyahoga Falls,3,2,1,0
+Cottage Grove,2,2,0,0
+Buffalo Grove,2,2,0,0
+Buffalo,10,6,4,0
+Broomfield,5,4,1,0
+Bridgeton,2,0,2,0
+Southaven,7,3,4,0
+South Bend,6,6,0,0
+Skokie,11,7,4,0
+Sioux Falls,9,1,8,0
+Sierra Vista,3,1,2,0
+Chapel Hill,1,0,1,0
+Champaign,1,1,0,0
+Cedar Rapids,1,1,0,0
+Cedar Hill,2,1,1,0
+Cary,6,0,6,0
+Carrollton,13,10,3,0
+Carol Stream,5,5,0,0
+Bethlehem,5,3,2,0
+Bellingham,3,2,1,0
+Belleville,10,5,5,0
+Beaumont,3,2,1,0
+Thornton,10,10,0,0
+Thomasville,3,3,0,0
+The Colony,3,3,0,0
+Texas City,3,3,0,0
+Tempe,13,4,9,0
+Temecula,4,4,0,0
+Taylor,3,1,2,0
+Sunnyvale,6,0,6,0
+Summerville,2,0,2,0
+Camarillo,5,1,4,0
+Caldwell,3,0,3,0
+Bullhead City,2,2,0,0
+Whittier,1,1,0,0
+West Allis,2,0,2,0
+Wausau,4,4,0,0
+Waukesha,1,1,0,0
+Waterloo,1,1,0,0
+Warwick,5,0,5,0
+Warner Robins,2,1,1,0
+Waco,6,5,1,0
+Visalia,4,3,1,0
+Vineland,8,5,3,0
+Baytown,1,0,1,0
+Bartlett,1,1,0,0
+Bangor,5,0,5,0
+Avondale,6,6,0,0
+Atlantic City,1,0,1,0
+Athens,6,5,1,0
+Madison,10,10,0,0
+Macon,6,3,3,0
+Lowell,16,10,6,0
+Loveland,4,1,3,0
+Longview,3,3,0,0
+Longmont,3,2,1,0
+Logan,5,5,0,0
+Littleton,1,1,0,0
+Little Rock,24,15,9,0
+Lindenhurst,1,0,1,0
+Aberdeen,1,1,0,0
+Yucaipa,1,0,1,0
+York,5,0,5,0
+Woonsocket,4,1,3,0
+Woodland,3,1,2,0
+Woodbury,3,0,3,0
