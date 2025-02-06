@@ -5,53 +5,73 @@ import plotly.io as pio
 # Set Plotly to dark theme
 pio.templates.default = "plotly_dark"
 
-# Load the dataset
-file_path = 'C:\\Users\\loydt\\Downloads\\Projects\\Superstore Sales Dataset.xlsx'
-data = pd.read_excel(file_path)
+# Function to load the dataset
+def load_data(file_path):
+    """Load dataset from a specified file path."""
+    return pd.read_excel(file_path)
 
-# Convert 'Order Date' to datetime and extract month and year
-data['Order Date'] = pd.to_datetime(data['Order Date'])
-data['Order Month'] = data['Order Date'].dt.month
-data['Order Year'] = data['Order Date'].dt.year
+# Function to preprocess data: Convert 'Order Date' to datetime and extract month, year, and create Year-Month column
+def preprocess_data(data):
+    """Convert 'Order Date' to datetime and extract month, year, and Year-Month column."""
+    data['Order Date'] = pd.to_datetime(data['Order Date'])
+    data['Order Month'] = data['Order Date'].dt.month
+    data['Order Year'] = data['Order Date'].dt.year
+    data['Order Year-Month'] = pd.to_datetime(dict(year=data['Order Year'], month=data['Order Month'], day=1))
+    return data
 
-# Combine 'Order Year' and 'Order Month' with a placeholder day=1
-data['Order Year-Month'] = pd.to_datetime(dict(year=data['Order Year'], month=data['Order Month'], day=1))
+# Function to create a line plot for monthly sales by segment or ship mode
+def create_sales_line_plot(data, group_by_column, title, color_column):
+    """Create a line plot for monthly sales based on a grouping column (Segment or Ship Mode)."""
+    monthly_sales = data.groupby(['Order Year-Month', group_by_column])['Sales'].sum().reset_index()
+    fig = px.line(
+        monthly_sales,
+        x='Order Year-Month',
+        y='Sales',
+        color=group_by_column,
+        title=title,
+        labels={"x": "Order Date", "Sales": "Total Sales"}
+    )
+    fig.update_layout(
+        xaxis=dict(title='Order Date'),
+        yaxis=dict(title='Sales'),
+        legend_title_text=group_by_column
+    )
+    return fig
 
-# Time Series Visualization: Monthly Sales by Segment
-monthly_sales_segment = data.groupby(['Order Year-Month', 'Segment'])['Sales'].sum().reset_index()
-fig_segment = px.line(
-    monthly_sales_segment,
-    x='Order Year-Month',
-    y='Sales',
-    color='Segment',
-    title="Monthly Sales Trend by Segment",
-    labels={"x": "Order Date", "Sales": "Total Sales"}
-)
-fig_segment.update_layout(xaxis=dict(title='Order Date'), yaxis=dict(title='Sales'), legend_title_text='Segment')
-fig_segment.show()
+# Function to create a treemap for sales distribution by region, state, and category
+def create_sales_treemap(data):
+    """Create a treemap visualization for sales distribution by region, state, and category."""
+    state_region_category_sales = data.groupby(['State', 'Region', 'Category'])['Sales'].sum().reset_index()
+    fig = px.treemap(
+        state_region_category_sales,
+        path=['Region', 'State', 'Category'],
+        values='Sales',
+        color='Sales',
+        title="Sales Distribution by Region, State, and Category",
+        color_continuous_scale="Blues"
+    )
+    fig.update_layout(margin=dict(t=50, l=25, r=25, b=25))
+    return fig
 
-# Time Series Visualization: Monthly Sales by Ship Mode
-monthly_sales_ship_mode = data.groupby(['Order Year-Month', 'Ship Mode'])['Sales'].sum().reset_index()
-fig_ship_mode = px.line(
-    monthly_sales_ship_mode,
-    x='Order Year-Month',
-    y='Sales',
-    color='Ship Mode',
-    title="Monthly Sales Trend by Ship Mode",
-    labels={"x": "Order Date", "Sales": "Total Sales"}
-)
-fig_ship_mode.update_layout(xaxis=dict(title='Order Date'), yaxis=dict(title='Sales'), legend_title_text='Ship Mode')
-fig_ship_mode.show()
+# Main analysis workflow
+def main(file_path):
+    # Load and preprocess data
+    data = load_data(file_path)
+    data = preprocess_data(data)
+    
+    # Create and show sales trends by segment
+    fig_segment = create_sales_line_plot(data, 'Segment', "Monthly Sales Trend by Segment", 'Segment')
+    fig_segment.show()
+    
+    # Create and show sales trends by ship mode
+    fig_ship_mode = create_sales_line_plot(data, 'Ship Mode', "Monthly Sales Trend by Ship Mode", 'Ship Mode')
+    fig_ship_mode.show()
+    
+    # Create and show sales distribution by region, state, and category
+    fig_region = create_sales_treemap(data)
+    fig_region.show()
 
-# Regional Insights: State and Region Interactions for Product Categories
-state_region_category_sales = data.groupby(['State', 'Region', 'Category'])['Sales'].sum().reset_index()
-fig_region = px.treemap(
-    state_region_category_sales,
-    path=['Region', 'State', 'Category'],
-    values='Sales',
-    color='Sales',
-    title="Sales Distribution by Region, State, and Category",
-    color_continuous_scale="Blues"
-)
-fig_region.update_layout(margin=dict(t=50, l=25, r=25, b=25))
-fig_region.show()
+# Run the analysis
+if __name__ == "__main__":
+    file_path = 'C:\\Users\\loydt\\Downloads\\Projects\\Superstore Sales Dataset.xlsx'
+    main(file_path)
