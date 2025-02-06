@@ -89,8 +89,7 @@ if __name__ == "__main__":
     file_path = 'C:\\Users\\loydt\\Downloads\\Projects\\Superstore Sales Dataset.xlsx'
     main(file_path)
 
-
-```
+"""
 State: Chi-squared = 249.36663742175628, p = 1.3908748204941375e-15, DoF = 96
 City: Chi-squared = 2015.006789463118, p = 1.5748980369915456e-62, DoF = 1056
 Ship Mode: Chi-squared = 25.763379077286622, p = 0.0002464086024327002, DoF = 6
@@ -107,7 +106,7 @@ Post-hoc results for City with Segment:
 ('Corporate', 'Home Office'): Adjusted p-value = 3.757551612400925e-11
 
 Post-hoc results for Ship Mode with Segment:
-```
+
 ('Consumer', 'Corporate'): Adjusted p-value = 0.0006284570132243212
 ('Consumer', 'Home Office'): Adjusted p-value = 0.8506425480165054
 ('Corporate', 'Home Office'): Adjusted p-value = 0.0015140818470504556
@@ -116,3 +115,4 @@ Post-hoc results for Order Month with Segment:
 ('Consumer', 'Corporate'): Adjusted p-value = 0.022012374707404657
 ('Consumer', 'Home Office'): Adjusted p-value = 7.460557644523636e-05
 ('Corporate', 'Home Office'): Adjusted p-value = 0.003405814771980744
+"""
